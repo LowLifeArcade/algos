@@ -21,6 +21,9 @@ class BST {
   delete(val){
     // travertse tree and delete
   }
+  add(val){
+    // traverse tree and add
+  }
 }
 
 const newTree = new BST(3)
