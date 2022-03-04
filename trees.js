@@ -24,6 +24,9 @@ class BST {
   add(val){
     // traverse tree and add
   }
+  find(val){
+    // traverse tree and find
+  }
 }
 
 const newTree = new BST(3)
