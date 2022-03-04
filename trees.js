@@ -14,6 +14,9 @@ class BST {
   insert(val){
     if (this.left === null) return 
     // val is greater than 
+    if(val > this.root.value) {
+      
+    }
   }
 }
 
