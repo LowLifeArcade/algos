@@ -26,6 +26,9 @@ class BST {
   }
   find(val){
     // traverse tree and find
+    if(val === this.value){
+      return this.value 
+    }
   }
 
 }
