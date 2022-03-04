@@ -18,8 +18,10 @@ class BST {
       this.root.left = new Node(val) 
     }
   }
+  delete(val){
+    // travertse tree and delete
+  }
 }
-// test
 
 const newTree = new BST(3)
 newTree.insert(2)
