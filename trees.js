@@ -19,6 +19,7 @@ class BST {
     }
   }
 }
+// test
 
 const newTree = new BST(3)
 newTree.insert(2)
