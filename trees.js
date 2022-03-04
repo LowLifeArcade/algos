@@ -20,6 +20,9 @@ class BST {
   }
   delete(val){
     // travertse tree and delete
+    if(val === this.value){
+      // delete
+    }
   }
   find(val){
     // traverse tree and find
