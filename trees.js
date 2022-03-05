@@ -14,7 +14,7 @@ class BST {
   insert(val){
     if (this.left === null) return 
     // val is greater than 
-    if(val < this.root.value) {
+    if(val < this.value) {
       this.root.left = new Node(val) 
     }
   }
@@ -30,10 +30,10 @@ class BST {
       return this.value 
     }
   }
-
 }
 
-const newTree = new BST(3)
+const newTree = new BST(4)
+newTree.insert(3)
 newTree.insert(2)
 newTree.insert(1)
 newTree 
