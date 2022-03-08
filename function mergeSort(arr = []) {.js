@@ -1,6 +1,6 @@
 function mergeSort(arr = []) {
-  const swap = (arr, idx1, idx2) =>
-    ([arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]]);
+  // const swap = (arr, idx1, idx2) =>
+  //   ([arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]]);
 
   let midPoint = arr.length / 2;
   const left = [];
