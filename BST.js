@@ -34,7 +34,8 @@ class BST {
       return this;
     }
   }
-}
+} 
+// test
 
 let myTree = new BST();
 myTree.insert(5);
