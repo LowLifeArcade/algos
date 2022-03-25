@@ -12,3 +12,4 @@ let myStr = 'Hello: Bearer Token:jflajflajflajflafj'
 let token = myStr.split(' ')[2].split(':')[1] //?
 
 token
+
