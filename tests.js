@@ -1,5 +1,8 @@
 function returnBrackets(str) {
-
+  for (let i = 0; i < str.length; i++) {
+    const el = str[i];
+    
+  }
   return '('
 }
 
