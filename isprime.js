@@ -16,7 +16,7 @@ function getNextPrime(inputValue) {
 }
 
 // 15
-function isPrime(value) {
+function isPrime(value) { 
   let prime = true;
   for (let i = 2; i < value; i++) {
     if (value % i == 0) prime = false;
