@@ -21,3 +21,31 @@ const SB = myFunc(1);
 
 SB.funstuff(32); //?
 SB.fetchMyData(); //?
+
+// function factory
+// a function that returns an object
+// a function that returns a function can be a factory too. Just bind to its object attributes
+
+const myFactory = (val) => {
+let fn = () => val
+fn.myName = () => 'My name is ' + val
+  return fn
+}
+
+const jonny = myFactory('jonny')
+jonny.myName() //?
+
+// simple object
+
+const myFactory2 = (val) => ({
+  name: val ? val : 'default',
+  username: val ? val + 234 : 'default',
+  getName() {
+    return this.name 
+  },
+  getUserName(){
+    return this.user
+  }
+})
+
+myFactory2
